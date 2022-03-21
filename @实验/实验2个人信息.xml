@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE persons SYSTEM "2.dtd">-->
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="实验2个人信息.xsd">
+	<person>
+		<name sex="男">邓二浦</name>
+		<age>21</age>
+		<id>18031110129</id>
+		<school>
+			<department>
+				<major>网络工程</major>
+				<class>一班</class>
+			</department>
+		</school>
+	</person>
+</persons>

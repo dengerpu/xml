@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<number>18031110129</number>
+		<name>邓二浦</name>
+		<score>100</score>
+	</student>
+	<student>
+		<number>18031110130</number>
+		<name>张三</name>
+		<score>100</score>
+	</student>
+</students>

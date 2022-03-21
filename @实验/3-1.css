@@ -1,0 +1,32 @@
+list{
+	display:block;
+	margin: 200px auto;
+	width:200px;
+	border:1px solid #666;
+	border-radius: 30px;
+}
+people{
+	margin: 20px 0;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 20px;
+	font-size: 24px;
+	background-color: pink;
+	border-radius: 20px;
+}
+name,id,sex,phone{
+	display: block;
+}
+name{
+	color: black;
+}
+id{
+	color: blue;
+}
+sex{
+	color:orange;
+}
+phone{
+	color: red
+}

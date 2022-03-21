@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="4.2.xsd">
+	<books>
+		<book bookid="b-1-1">XML详解</book>
+		<book bookid="b-1-2">Servlet从入门到精通</book>
+		<book bookid="b-1-3">JSP实例编程</book>
+	</books>
+	<records>
+		<item>
+			<date>2012-08-01</date>
+			<person name="张三" borrowed="b-1-1 b-1-2"/>
+		</item>
+		<item>
+			<date>2012-08-02</date>
+			<person name="李四" borrowed="b-1-1 b-1-3"/>
+		</item>
+	</records>
+</library>

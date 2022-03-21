@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--引入外部DTD文件语法：
+	<!DOCTYPE class SYSTEM "文件名称.dtd">
+-->
+<!--引入内部DTD文件-->
+<!DOCTYPE class [
+	<!ELEMENT class (ma:major,students)*>
+	<!ELEMENT ma:major (ma:name)*>
+	<!ELEMENT ma:name (#PCDATA)>
+	<!ELEMENT students (st:student+)>
+	<!ELEMENT st:student (st:name,st:age)>
+	<!ELEMENT st:name (#PCDATA)>
+	<!ELEMENT st:age (#PCDATA)>
+	<!ATTLIST class xmlns:ma CDATA #REQUIRED
+	xmlns:st CDATA #REQUIRED xmlns CDATA #IMPLIED>
+	<!ATTLIST st:student sn CDATA #REQUIRED>
+]>
+<class xmlns:ma="http://www.dult.edu.cn/xml/major" xmlns:st="http://www.dlut.edu.xn/xml/student" xmlns="http://www.dlut.edu.cn/xml">
+	<ma:major>
+		<ma:name>软件工程</ma:name>
+	</ma:major>
+	<students>
+		<st:student sn="01">
+			<st:name>张三</st:name>
+			<st:age>18</st:age>
+		</st:student>
+		<st:student sn="02">
+			<st:name>张三</st:name>
+			<st:age>18</st:age>
+		</st:student>
+	</students>
+</class>

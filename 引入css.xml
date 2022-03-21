@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="1.css"?>
+<student>
+	<name>张三</name>
+	<age>20</age>
+	<性别>男</性别>
+</student>

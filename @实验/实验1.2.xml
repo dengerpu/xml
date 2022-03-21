@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+	<name>xml指南</name>
+	<section>
+		<s-page>第一章</s-page>
+		<s-title>xml入门简介</s-title>
+		<s-content title="1.2节">
+			<s-item>什么是html</s-item>
+			<s-item>什么是xml</s-item>
+		</s-content>
+	</section>
+	<section>
+		<s-page>第二章</s-page>
+		<s-title>xml语法</s-title>
+		<s-content title="2.1节">
+			<s-item>xml元素必须有结束标签</s-item>
+			<s-item>xml元素必须正确地嵌套</s-item>
+		</s-content>
+	</section>
+</book>

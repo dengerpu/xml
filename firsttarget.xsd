@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.dlut.edu.cn/xml" xmlns:c="http://www.dlut.edu.cn/xml">
+	<xs:element name="collage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="c:name"></xs:element>
+				<xs:element ref="c:major" minOccurs="1" maxOccurs="unbounded"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="name" type="xs:string"/>
+	<xs:element name="major" type="xs:string"/>
+</xs:schema>

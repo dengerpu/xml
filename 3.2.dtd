@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT ENTER_NAME_OF_ROOT_ELEMENT_HERE EMPTY>
+	<!ELEMENT library (books,records)+>
+	<!ELEMENT books (book)*>
+	<!ELEMENT book (#PCDATA)>
+	<!ELEMENT records (item)*>
+	<!ELEMENT item (data,preson)>
+	<!ELEMENT data (#PCDATA)>
+	<!ELEMENT preson (#PCDATA)>
+	<!ATTLIST library xmlns:bk CDATA #REQUIRED xmlns:pn CDATA #REQUIRED>
+	<!ATTLIST book bk:bookid CDATA #REQUIRED>
+	<!ATTLIST preson pn:name CDATA #REQUIRED borrowed CDATA #IMPLIED>

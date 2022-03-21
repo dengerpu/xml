@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+	<employee id="1">
+		<name>张三</name>
+		<age>20</age>
+		<sex>男</sex>
+		<address>河南省安阳市</address>
+	</employee>
+		<employee id="2">
+		<name>李四</name>
+		<age>26</age>
+		<sex>女</sex>
+		<address>河南省济源市</address>
+	</employee>
+</employees>

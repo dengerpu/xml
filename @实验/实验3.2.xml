@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="3.2.xslt"?>
+<students>
+	<student id="18031110129">
+		<name>邓二浦</name>
+		<java>92</java>
+		<oracle>88</oracle>
+		<python>90</python>
+	</student>
+	<student id="18031110120">
+		<name>张三</name>
+		<java>95</java>
+		<oracle>79</oracle>
+		<python>89</python>
+	</student>
+	<student id="18031110125">
+		<name>李四</name>
+		<java>87</java>
+		<oracle>90</oracle>
+		<python>100</python>
+	</student>
+</students>

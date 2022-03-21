@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xml namespace XML命名空间-->
+<!--语法：xmlns[:prefix]="命名空间字符串"
+xmlns表示XML namespace 命名空间的缩写
+prefix表示前缀名称，可以没有
+命名空间字符串是一个URL地址，可以是一个不真实的地址，只要保证唯一性就可以了-->
+<!--无前缀的命名空间声明,一个文件中只能使用一个xmlns形式的命名空间，也常被称为默认的命名空间-->
+<!--有前缀的命名空间可以有多个，中间用空格隔开-->
+<book xmlns="http://www.erpu.com/book" xmlns:au="http://www.erpu.com/book/author">
+	<name>xml基础课程</name>
+	<au:author>
+		<au:name au:id="x001" class="name">josin</au:name>
+		<au:age>34</au:age>
+	</au:author>
+</book>

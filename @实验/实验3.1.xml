@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="3-1.css"?>
+<list>
+  <people>  
+    <name>邓二浦</name>
+    <id>18031110129</id>
+    <sex>男</sex>
+    <phone>18888888888</phone>
+  </people>
+  <people>  
+    <name>张三</name>
+    <id>18031110000</id>
+    <sex>男</sex>
+    <phone>15555555555</phone>
+  </people>
+</list>

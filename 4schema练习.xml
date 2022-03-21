@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "first.xsd">
+	<name>计算机工程学院</name>
+	<magor>计算机科学与技术</magor>
+	<magor>软件工程</magor>
+	<magor>嵌入式</magor>
+</school>

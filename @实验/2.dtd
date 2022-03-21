@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!ELEMENT persons (person+)>
+	<!ELEMENT person (name,age,id,school)>
+	<!ATTLIST name sex CDATA #REQUIRED>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT school (department)>
+	<!ATTLIST school name CDATA #REQUIRED>
+	<!ELEMENT department (major,class)>
+	<!ATTLIST department name CDATA #REQUIRED>
+	<!ELEMENT major (#PCDATA)>
+	<!ELEMENT class (#PCDATA)>

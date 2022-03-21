@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:collage xmlns:s="http://www.dlut.edu.cn/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dlut.edu.cn/xml firsttarget.xsd">
+	<s:name>计算机工程学院</s:name>
+	<s:major>计算机科学与技术</s:major>
+	<s:major>软件工程</s:major>
+	<s:major>嵌入式</s:major>
+</s:collage>

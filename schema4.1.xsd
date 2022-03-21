@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:annotation>																											<xs:documentation>elementFormDefault属性表示用schema
+	定义的局部元素是否必须用命名空间限制
+	</xs:documentation>
+	</xs:annotation>
+	
+	<xs:element name="学生名册">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="学生" type="studenttype"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="studenttype">
+		<xs:sequence>
+			<xs:element name="姓名" type="xs:string"></xs:element>
+			<xs:element name="性别">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="男"/>
+						<xs:enumeration value="女"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="年龄">
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+							<xs:minExclusive value="0"/>
+							<xs:maxExclusive value="100"/>
+						</xs:restriction>
+					</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:attribute name="学号" type="xs:integer"></xs:attribute>
+</xs:schema>
